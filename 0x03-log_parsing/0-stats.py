@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''A script for parsing HTTP request logs and computing metrics.'''
 import re
-import sys
+# import sys
 
 def extract_input(input_line):
     '''Extracts sections of a line of an HTTP request log.'''
